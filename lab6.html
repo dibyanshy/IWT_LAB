@@ -1,204 +1,237 @@
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Registration Application Form</title>
+    <title>abc</title>
 </head>
-
 <body>
-    <h2 align="center">Registration Application Form For Course - O Level</h2>
 
-    <table border="1" width="100%" cellspacing="0" cellpadding="8">
-        <!-- Section 1 -->
+    <table border="1" width="60%">
+
+            <th colspan="4">REGISTRATION APPLICATION FORM FOR COURSE - O LEVEL</th>
+
         <tr>
-            <th colspan="4" align="left">1. Registration Form</th>
+            <th colspan="4">1. Registration Form</th>
         </tr>
-
         <tr>
             <td>1.0</td>
+            <td>Hve you got online referance number  for encrolment with NIELIT/Accredition extension center</td>
             <td colspan="2">
-                Have you got online reference number for enrolment with NIELIT?
-            </td>
-            <td>
-                <input type="radio" name="ref"> No
-                <input type="radio" name="ref"> Yes
+                <label><input type="radio" name="ref" value="no"> No</label>
+                <label><input type="radio" name="ref" value="yes"> Yes</label>
             </td>
         </tr>
-
         <tr>
             <td>1.1</td>
             <td>Registration sought for</td>
-            <td colspan="2">
+            <td colspan="2">O LEVEL
                 <select>
-                    <option>O Level</option>
+                    <option value="">--Select--</option>
+                    <option value="o-level">O Level</option>
                 </select>
             </td>
         </tr>
-
         <tr>
             <td>1.2</td>
-            <td>Applied as</td>
+            <td>Applied As</td>
             <td colspan="2">
-                <input type="radio" name="apply"> Direct Candidate
-                <input type="radio" name="apply"> Through Institute
+                <label><input type="radio" name="applied" value="direct"> Direct Candidate</label>
+                <label><input type="radio" name="applied" value="institute"> Through Institute</label>
             </td>
         </tr>
-
         <tr>
             <td>1.3</td>
             <td>Exam Cycle</td>
-            <td colspan="2">
-                <select>
-                    <option>July 2022</option>
-                </select>
-            </td>
+            <td colspan="2">July, 2022</td>
         </tr>
-
         <tr>
             <td>1.4</td>
-            <td>Registration fee will be paid by?</td>
-            <td colspan="2">Candidate directed to NIELIT</td>
+            <td>Registration Fee Will Be Paid By?</td>
+            <td colspan="2">Candidate Direct to NIELIT</td>
         </tr>
 
-        <!-- Section 2 -->
         <tr>
-            <th colspan="4" align="left">2. Applicant's Personal Details</th>
+            <th colspan="4">2. Applicant's Personal Details</th>
         </tr>
-
         <tr>
             <td>2.1</td>
             <td>Applicant's full name</td>
-            <td colspan="2">
-                <input type="text" size="40">
-            </td>
+            <td colspan="2"><input type="text" placeholder="Full Name"></td>
         </tr>
-
         <tr>
             <td>2.2</td>
             <td>Care Of</td>
             <td colspan="2">
-                <input type="radio" name="care"> Parent
-                <input type="radio" name="care"> Guardian
+                <label><input type="radio" name="careof" value="parents"> Parents</label>
+                <label><input type="radio" name="careof" value="guardian"> Guardian</label>
             </td>
         </tr>
-
         <tr>
             <td>2.2.1</td>
             <td>Father's Name</td>
-            <td colspan="2">
-                <select>
-                    <option>Mr.</option>
-                </select>
-                <input type="text">
-            </td>
+            <td colspan="2"><input type="text" placeholder="Father's Name"></td>
         </tr>
-
         <tr>
             <td>2.2.2</td>
             <td>Mother's Name</td>
-            <td colspan="2">
-                <select>
-                    <option>Mrs.</option>
-                </select>
-                <input type="text">
-            </td>
+            <td colspan="2"><input type="text" placeholder="Mother's Name"></td>
         </tr>
-
         <tr>
             <td>2.3</td>
             <td>Gender</td>
             <td colspan="2">
-                <input type="radio" name="gender"> Male
-                <input type="radio" name="gender"> Female
-                <input type="radio" name="gender"> Others
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="others"> Others</label>
             </td>
         </tr>
-
         <tr>
             <td>2.4</td>
             <td>Date of Birth</td>
-            <td colspan="2">
-                <input type="date">
-            </td>
+            <td colspan="2"><input type="date"></td>
         </tr>
-
         <tr>
             <td>2.5</td>
             <td>Marital Status</td>
             <td colspan="2">
                 <select>
-                    <option>Single</option>
-                    <option>Married</option>
+                    <option value="">--Select--</option>
+                    <option value="single">Single</option>
+                    <option value="married">Married</option>
                 </select>
             </td>
         </tr>
-
         <tr>
             <td>2.6</td>
             <td>Category</td>
             <td colspan="2">
                 <select>
-                    <option>General</option>
-                    <option>OBC</option>
-                    <option>SC</option>
-                    <option>ST</option>
+                    <option value="">--Select--</option>
+                    <option value="general">General</option>
+                    <option value="obc">OBC</option>
+                    <option value="sc">SC</option>
+                    <option value="st">ST</option>
                 </select>
             </td>
         </tr>
-
         <tr>
             <td>2.7</td>
             <td>Handicapped</td>
             <td colspan="2">
-                <input type="radio" name="handi"> No
-                <input type="radio" name="handi"> Yes
+                <label><input type="radio" name="handicapped" value="no"> No</label>
+                <label><input type="radio" name="handicapped" value="yes"> Yes</label>
             </td>
         </tr>
-
         <tr>
             <td>2.8</td>
             <td>Ex-Serviceman</td>
             <td colspan="2">
-                <input type="radio" name="ex"> No
-                <input type="radio" name="ex"> Yes
+                <label><input type="radio" name="exservice" value="no"> No</label>
+                <label><input type="radio" name="exservice" value="yes"> Yes</label>
             </td>
         </tr>
-
         <tr>
             <td>2.9</td>
             <td>EWS</td>
             <td colspan="2">
-                <input type="radio" name="ews"> No
-                <input type="radio" name="ews"> Yes
+                <label><input type="radio" name="ews" value="no"> No</label>
+                <label><input type="radio" name="ews" value="yes"> Yes</label>
             </td>
         </tr>
-
         <tr>
             <td>2.10</td>
             <td>Religion</td>
             <td colspan="2">
                 <select>
-                    <option>Select</option>
+                    <option value="">--Select--</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="muslim">Muslim</option>
+                    <option value="christian">Christian</option>
+                    <option value="sikh">Sikh</option>
+                    <option value="others">Others</option>
                 </select>
             </td>
         </tr>
 
-        <!-- Contact -->
+        <tr>
+            <th colspan="4">3. Contact Details</th>
+        </tr>
         <tr>
             <td>3.1</td>
             <td>Mobile Number</td>
-            <td colspan="2">
-                <input type="text">
-            </td>
+            <td colspan="2"><input type="tel" placeholder="Enter Mobile Number"></td>
         </tr>
-
+		<tr>
+		    <td>3.2</td>
+			<td> Email id</td>
+			<td colspan="2"><input type="text" placeholder="Enter Your Emil id"</td>
+		</tr>
         <tr>
-            <td>3.2</td>
-            <td>Email Address</td>
+            <td>3.3</td>
+            <td>Address line 1</td>
+            <td colspan="2"><input type="text" placeholder="Enter Your 1st address"></td>
+        </tr>
+		<tr>
+		    <td>3.4</td>
+			<td>Address line 2</td>
+			<td colspan="2"><input type="text" placeholder="Enter your second Address"></td>
+		</tr>
+        <tr>
+            <td>3.5</td>
+			<td>city</td>
+			<td colspan="2"><input type="text" placeholder="Enter your city name"></td>
+		</tr>
+        <tr>
+            <td>3.6</td>
+            <td>State</td>
             <td colspan="2">
-                <input type="email">
+            <select>
+                <option>--Select--</option>
+            </select>
             </td>
         </tr>
-
+        <tr>
+            <td>3.7</td>
+            <td>Pin Code</td>
+            <td colspan="2"><input type="text" placeholder="Enter the Pin Code"></td>
+		</tr>
+        <tr>
+          <th colspan="4">4.Education / Qualification Details</th>
+        </tr>
+        <tr>
+            <td>4.1</td>
+            <td>Higher Education Qualification</td>
+            <td colspan="2">
+                <select>
+                    <option>--Select--</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>4.2</td>
+            <td>Year Of Passing</td>
+            <td colspan="2"><input type="text" placeholder="year of passing"></td>
+        </tr>
+        <tr>
+          <th colspan="4">5.Identification Details</th>
+        </tr>
+		<tr>
+		   <td>5.1</td>
+		   <td>Adhar Card Number</td>
+		   <td colspan="2"><input type="text" placeholder="adhar number"></td>
+		</tr>
+        <tr>
+		<tr>
+		  <td>5.2</td>
+		  <td>Upload photo</td>
+		  <td colspan="2">
+		    <input type="file">
+		   </td>
+        </tr>
+        <tr>
+      		<td colspan="4" align="center">
+			  <input type="submit" value="submit">
+			  <input type="submit" value="Back">
+			</td>
+		</tr>
     </table>
 
 </body>
