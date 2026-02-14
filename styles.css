@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero {
+    min-height: 80vh;
+}
+
+.card {
+    margin: 20px auto;
+}
+
+.about {
+    margin-top: -80px;
+}
+body {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    color: #333;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* PROFILE */
+.profile {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid white;
+}
+
+.profile h2 {
+    margin-top: 10px;
+}
+
+/* SECTIONS */
+section {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* SKILLS */
+.skills ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.skills li {
+    background: #ecf0f1;
+    padding: 10px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+/* EDUCATION */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #2c3e50;
+    color: white;
+}
+
+/* PROJECTS */
+.project-card {
+    background: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #3498db;
+    border-radius: 6px;
+}
+
+/* CONTACT */
+.contact p {
+    margin: 8px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #2c3e50;
+    color: white;
+    margin-top: 30px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    min-height: 80vh;   /* instead of 100vh */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    padding: 50px 40px;
+    border-radius: 20px;
+    color: white;
+    width: 85%;
+    max-width: 420px;
+}
+
+.hero img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 14px;
+    margin: 10px 0 25px;
+    opacity: 0.9;
+}
+
+.hero-buttons a {
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 25px;
+    margin: 5px;
+    background: white;
+    color: #c33764;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.hero-buttons .outline {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+
+/* CARDS */
+.card {
+    background: white;
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #c33764;
+}
+
+/* SKILLS */
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 12px;
+}
+
+.skill-grid span {
+    background: #f3f3f3;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 13px;
+}
+
+/* EDUCATION */
+.edu-item {
+    margin-bottom: 15px;
+}
+
+.edu-item span {
+    font-size: 12px;
+    color: gray;
+}
+
+/* PROJECTS */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+}
+
+.project {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 12px;
+    transition: transform 0.3s;
+}
+
+.project:hover {
+    transform: translateY(-6px);
+}
+
+/* CONTACT */
+.contact p {
+    margin: 6px 0;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 13px;
+}
