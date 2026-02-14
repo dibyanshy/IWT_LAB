@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periodic Table</title>
+
+    <style>
+        body {
+            background-color: #0b0f1a;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            border: 2px solid #845ef7;
+            padding: 10px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            table-layout: fixed;
+            color: white;
+            text-align: center;
+            border-collapse: collapse;
+        }
+
+        td {
+            border: 1px solid #222;
+            padding: 6px;
+            font-size: 14px;
+            border-radius: 4px;
+        }
+
+        /* Element Groups */
+        .alkali { background-color: #ff6f61; }
+        .alkaline { background-color: #ffca3a; }
+        .transition { background-color: #4dabf7; }
+        .semiconductor { background-color: #9775fa; }
+        .metalloid { background-color: #845ef7; }
+        .nonmetal { background-color: #51cf66; }
+        .nonmetal2 { background-color: #69db7c; }
+        .halogen { background-color: #38d9a9; }
+        .noblegas { background-color: #15aabf; }
+        .lanthanide { background-color: #f783ac; }
+        .actinide { background-color: #e64980; }
+
+        .gap {
+            height: 20px;
+        }
+
+        .empty {
+            background: transparent;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>PERIODIC TABLE</h1>
+
+<table>
+
+    <!-- Period 1 -->
+    <tr>
+        <td class="nonmetal2">1<br>H<br>1.008</td>
+        <td colspan="16" class="empty"></td>
+        <td class="noblegas">2<br>He<br>4.003</td>
+    </tr>
+
+    <!-- Period 2 -->
+    <tr>
+        <td class="alkali">3<br>Li<br>6.94</td>
+        <td class="alkaline">4<br>Be<br>9.01</td>
+        <td colspan="10" class="empty"></td>
+        <td class="metalloid">5<br>B<br>10.81</td>
+        <td class="nonmetal2">6<br>C<br>12.01</td>
+        <td class="nonmetal2">7<br>N<br>14.01</td>
+        <td class="nonmetal2">8<br>O<br>16.00</td>
+        <td class="halogen">9<br>F<br>19.00</td>
+        <td class="noblegas">10<br>Ne<br>20.18</td>
+    </tr>
+
+    <!-- Period 3 -->
+    <tr>
+        <td class="alkali">11<br>Na<br>22.99</td>
+        <td class="alkaline">12<br>Mg<br>24.31</td>
+        <td colspan="10" class="empty"></td>
+        <td class="metalloid">13<br>Al<br>26.98</td>
+        <td class="semiconductor">14<br>Si<br>28.09</td>
+        <td class="nonmetal2">15<br>P<br>30.97</td>
+        <td class="nonmetal2">16<br>S<br>32.06</td>
+        <td class="halogen">17<br>Cl<br>35.45</td>
+        <td class="noblegas">18<br>Ar<br>39.95</td>
+    </tr>
+
+    <!-- Period 4 -->
+    <tr>
+        <td class="alkali">19<br>K<br>39.10</td>
+        <td class="alkaline">20<br>Ca<br>40.08</td>
+        <td class="transition">21<br>Sc</td>
+        <td class="transition">22<br>Ti</td>
+        <td class="transition">23<br>V</td>
+        <td class="transition">24<br>Cr</td>
+        <td class="transition">25<br>Mn</td>
+        <td class="transition">26<br>Fe</td>
+        <td class="transition">27<br>Co</td>
+        <td class="transition">28<br>Ni</td>
+        <td class="transition">29<br>Cu</td>
+        <td class="transition">30<br>Zn</td>
+        <td class="metalloid">31<br>Ga</td>
+        <td class="semiconductor">32<br>Ge</td>
+        <td class="semiconductor">33<br>As</td>
+        <td class="nonmetal2">34<br>Se</td>
+        <td class="halogen">35<br>Br</td>
+        <td class="noblegas">36<br>Kr</td>
+    </tr>
+
+    <!-- Period 5 -->
+    <tr>
+        <td class="alkali">37<br>Rb</td>
+        <td class="alkaline">38<br>Sr</td>
+        <td class="transition">39<br>Y</td>
+        <td class="transition">40<br>Zr</td>
+        <td class="transition">41<br>Nb</td>
+        <td class="transition">42<br>Mo</td>
+        <td class="transition">43<br>Tc</td>
+        <td class="transition">44<br>Ru</td>
+        <td class="transition">45<br>Rh</td>
+        <td class="transition">46<br>Pd</td>
+        <td class="transition">47<br>Ag</td>
+        <td class="transition">48<br>Cd</td>
+        <td class="metalloid">49<br>In</td>
+        <td class="nonmetal">50<br>Sn</td>
+        <td class="semiconductor">51<br>Sb</td>
+        <td class="semiconductor">52<br>Te</td>
+        <td class="halogen">53<br>I</td>
+        <td class="noblegas">54<br>Xe</td>
+    </tr>
+
+    <!-- Period 6 -->
+    <tr>
+        <td class="alkali">55<br>Cs</td>
+        <td class="alkaline">56<br>Ba</td>
+        <td class="lanthanide">57–71</td>
+        <td class="transition">72<br>Hf</td>
+        <td class="transition">73<br>Ta</td>
+        <td class="transition">74<br>W</td>
+        <td class="transition">75<br>Re</td>
+        <td class="transition">76<br>Os</td>
+        <td class="transition">77<br>Ir</td>
+        <td class="transition">78<br>Pt</td>
+        <td class="transition">79<br>Au</td>
+        <td class="transition">80<br>Hg</td>
+        <td class="metalloid">81<br>Tl</td>
+        <td class="nonmetal">82<br>Pb</td>
+        <td class="nonmetal">83<br>Bi</td>
+        <td class="nonmetal">84<br>Po</td>
+        <td class="halogen">85<br>At</td>
+        <td class="noblegas">86<br>Rn</td>
+    </tr>
+
+    <!-- Period 7 -->
+    <tr>
+        <td class="alkali">87<br>Fr</td>
+        <td class="alkaline">88<br>Ra</td>
+        <td class="actinide">89–103</td>
+        <td class="transition">104<br>Rf</td>
+        <td class="transition">105<br>Db</td>
+        <td class="transition">106<br>Sg</td>
+        <td class="transition">107<br>Bh</td>
+        <td class="transition">108<br>Hs</td>
+        <td class="transition">109<br>Mt</td>
+        <td class="transition">110<br>Ds</td>
+        <td class="transition">111<br>Rg</td>
+        <td class="transition">112<br>Cn</td>
+        <td class="metalloid">113<br>Nh</td>
+        <td class="nonmetal">114<br>Fl</td>
+        <td class="nonmetal">115<br>Mc</td>
+        <td class="nonmetal">116<br>Lv</td>
+        <td class="halogen">117<br>Ts</td>
+        <td class="noblegas">118<br>Og</td>
+    </tr>
+
+</table>
+
+</body>
+</html>
