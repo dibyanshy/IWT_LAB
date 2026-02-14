@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: radial-gradient(circle at top right, #1b1b1b, #000);
+    color: #eaeaea;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+
+.logo {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #d4af37;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #bbb;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+.nav-buttons button {
+    margin-left: 10px;
+}
+
+/* BUTTONS */
+button {
+    padding: 12px 22px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+}
+
+.filled {
+    background: #d4af37;
+    color: #000;
+    border: none;
+}
+
+.outline {
+    background: transparent;
+    color: #d4af37;
+    border: 1px solid #d4af37;
+}
+
+/* HERO */
+.hero {
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 50px;
+    padding: 80px 60px;
+}
+
+/* LEFT */
+.hero-left .badge {
+    display: inline-block;
+    background: #111;
+    color: #9f9f9f;
+    padding: 6px 14px;
+    font-size: 12px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+}
+
+.hero-left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+}
+
+.hero-left h1 span {
+    color: #d4af37;
+}
+
+.hero-left p {
+    color: #aaa;
+    max-width: 480px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.hero-buttons button {
+    margin-right: 15px;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.stats h3 {
+    color: #d4af37;
+    font-size: 22px;
+}
+
+.stats span {
+    font-size: 12px;
+    color: #888;
+}
+
+/* RIGHT */
+.hero-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.price-card {
+    background: #111;
+    padding: 22px;
+    border-radius: 8px;
+    border: 1px solid #1f1f1f;
+}
+
+.price-card span {
+    font-size: 12px;
+    color: #888;
+}
+
+.price-card h2 {
+    font-size: 36px;
+    margin-top: 10px;
+}
+
+.price-card h3 {
+    font-size: 22px;
+    margin-top: 8px;
+}
+
+.price-card.main {
+    border: 1px solid #d4af37;
+}
+
+.positive {
+    color: #2ecc71;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+/* GRID */
+.price-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
