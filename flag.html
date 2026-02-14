@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Indian National Flag</title>
+
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f2f2f2;
+    }
+
+    /* Flag */
+    .flag {
+        width: 450px;
+        height: 300px;
+        border: 2px solid black;
+    }
+
+    .saffron {
+        height: 33.33%;
+        background: #ff9933;
+    }
+
+    .white {
+        height: 33.33%;
+        background: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .green {
+        height: 33.33%;
+        background: #138808;
+    }
+
+    /* Ashoka Chakra */
+    .chakra {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #000080;
+        border-radius: 50%;
+        position: relative;
+    }
+
+    /* Spokes */
+    .chakra span {
+        position: absolute;
+        width: 2px;
+        height: 100%;
+        background: #000080;
+        top: 0;
+        left: 50%;
+        transform-origin: center;
+    }
+
+    /* 24 spokes using rotation */
+    .chakra span:nth-child(1)  { transform: translateX(-50%) rotate(0deg); }
+    .chakra span:nth-child(2)  { transform: translateX(-50%) rotate(15deg); }
+    .chakra span:nth-child(3)  { transform: translateX(-50%) rotate(30deg); }
+    .chakra span:nth-child(4)  { transform: translateX(-50%) rotate(45deg); }
+    .chakra span:nth-child(5)  { transform: translateX(-50%) rotate(60deg); }
+    .chakra span:nth-child(6)  { transform: translateX(-50%) rotate(75deg); }
+    .chakra span:nth-child(7)  { transform: translateX(-50%) rotate(90deg); }
+    .chakra span:nth-child(8)  { transform: translateX(-50%) rotate(105deg); }
+    .chakra span:nth-child(9)  { transform: translateX(-50%) rotate(120deg); }
+    .chakra span:nth-child(10) { transform: translateX(-50%) rotate(135deg); }
+    .chakra span:nth-child(11) { transform: translateX(-50%) rotate(150deg); }
+    .chakra span:nth-child(12) { transform: translateX(-50%) rotate(165deg); }
+    .chakra span:nth-child(13) { transform: translateX(-50%) rotate(180deg); }
+    .chakra span:nth-child(14) { transform: translateX(-50%) rotate(195deg); }
+    .chakra span:nth-child(15) { transform: translateX(-50%) rotate(210deg); }
+    .chakra span:nth-child(16) { transform: translateX(-50%) rotate(225deg); }
+    .chakra span:nth-child(17) { transform: translateX(-50%) rotate(240deg); }
+    .chakra span:nth-child(18) { transform: translateX(-50%) rotate(255deg); }
+    .chakra span:nth-child(19) { transform: translateX(-50%) rotate(270deg); }
+    .chakra span:nth-child(20) { transform: translateX(-50%) rotate(285deg); }
+    .chakra span:nth-child(21) { transform: translateX(-50%) rotate(300deg); }
+    .chakra span:nth-child(22) { transform: translateX(-50%) rotate(315deg); }
+    .chakra span:nth-child(23) { transform: translateX(-50%) rotate(330deg); }
+    .chakra span:nth-child(24) { transform: translateX(-50%) rotate(345deg); }
+
+</style>
+</head>
+
+<body>
+
+<div class="flag">
+    <div class="saffron"></div>
+
+    <div class="white">
+        <div class="chakra">
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span>
+        </div>
+    </div>
+
+    <div class="green"></div>
+</div>
+
+</body>
+</html>
