@@ -1,0 +1,24 @@
+
+<html>
+<head>
+<title>Armstrong Number</title>
+</head>
+<body>
+<script>
+function isArmstrong(num) {
+ 
+  var digits = num.toString().split('');
+  var power = digits.length;   
+  var sum = 0;
+  for (var i = 0; i < digits.length; i++) {
+    sum += Math.pow(parseInt(digits[i]), power);
+  }
+  return sum === num;
+}
+var test1 = 153;
+var test2 = 123;
+document.write(test1 + " is Armstrong? " + isArmstrong(test1) + "<br>");
+document.write(test2 + " is Armstrong? " + isArmstrong(test2));
+</script>
+</body>
+</html>

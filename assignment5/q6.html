@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Remove Duplicates</title>
+</head>
+<body bgcolor="black" text="pink">
+<script>
+var arr = [1, 2, 2, 3, 4, 4, 5]; 
+
+var uniqueArr = [];
+for (var i = 0; i < arr.length; i++) {
+  if (uniqueArr.indexOf(arr[i]) === -1) {
+    uniqueArr.push(arr[i]);
+  }
+}
+document.write("Original Array: " + arr + "<br>");
+document.write("Array without duplicates: " + uniqueArr);
+</script>
+</body>
+</html>

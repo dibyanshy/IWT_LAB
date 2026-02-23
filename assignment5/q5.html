@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Second Largest Element</title>
+</head>
+<body bgcolor="black" text="pink">
+<script>
+var arr = [12, 35, 1, 10, 34, 1];   
+
+var largest = -Infinity;
+var second = -Infinity;
+
+for (var i = 0; i < arr.length; i++) {
+  var n = arr[i];
+  if (n > largest) {
+    second = largest;
+    largest = n;
+  } else if (n > second && n < largest) {
+    second = n;
+  }
+}
+document.write("Array: " + arr + "<br>");
+document.write("Largest: " + largest + "<br>");
+document.write("Second Largest: " + second);
+</script>
+</body>
+</html>

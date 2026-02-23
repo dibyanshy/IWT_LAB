@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fibonacci Series</title>
+</head>
+<body>
+<script>
+function generateFibonacci(n) {
+  var fib = [];
+  
+  
+  fib[0] = 0;
+  fib[1] = 1;
+
+  
+  for (var i = 2; i < n; i++) {
+    fib[i] = fib[i - 1] + fib[i - 2];
+  }
+
+  return fib;
+}
+
+var n = 10;
+var result = generateFibonacci(n);
+
+document.write("First " + n + " Fibonacci numbers: " + result);
+</script>
+</body>
+</html>

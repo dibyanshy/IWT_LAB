@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Prime Check</title>
+</head>
+<body bgcolor="black" text="pink">
+<script>
+function isPrime(num) {
+  if (num < 2) return false;  
+  for (var i = 2; i <= Math.sqrt(num); i++) {
+    if (num % i === 0) return false; 
+	}
+  return true; 
+}
+
+
+var test1 = 7;
+var test2 = 10;
+
+document.write(test1 + " is Prime? " + isPrime(test1) + "<br>");
+document.write(test2 + " is Prime? " + isPrime(test2));
+</script>
+</body>
+</html>
