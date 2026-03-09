@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+Enter Number:
+<input type="number" id="num">
+
+<button onclick="checkPrime()">Check</button>
+
+<script>
+
+function checkPrime()
+{
+    var n = document.getElementById("num").value;
+    var count = 0;
+
+    for(var i=1;i<=n;i++)
+    {
+        if(n%i==0)
+        count++;
+    }
+
+    if(count==2)
+    alert("Prime Number");
+    else
+    alert("Not Prime Number");
+}
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="black" text="pink">
+
+<p id="para">This is a paragraph.</p>
+
+<button onclick="toggle()">Hide</button>
+
+<script>
+function toggle()
+{
+    var p = document.getElementById("para");
+    var btn = document.querySelector("button");
+
+    if(p.style.display === "none")
+    {
+        p.style.display = "block";
+        btn.innerHTML = "Hide";
+    }
+    else
+    {
+        p.style.display = "none";
+        btn.innerHTML = "show";
+    }
+}
+</script>
+
+</body>
+</html>

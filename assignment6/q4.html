@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" id="count" value="0">
+
+<br><br>
+
+<button onclick="increase()">+</button>
+<button onclick="decrease()">-</button>
+
+<script>
+
+function increase()
+{
+    var value = parseInt(document.getElementById("count").value);
+    document.getElementById("count").value = value + 1;
+}
+
+function decrease()
+{
+    var value = parseInt(document.getElementById("count").value);
+
+    if(value > 0)
+    {
+        document.getElementById("count").value = value - 1;
+    }
+}
+
+</script>
+
+</body>
+</html>
