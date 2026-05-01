@@ -1,9 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<body>
-<hr>
-<p> 2026 MySite | Contact: info@mysite.com</p>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1774dcab2a66d33def829f70f2885306744147c7317bb393df56cb02114bf5ee
+size 196

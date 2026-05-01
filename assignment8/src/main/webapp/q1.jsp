@@ -1,10 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-)<%@ page import="java.util.Date" %>
-<html>
-<head><title>Hello World JSP</title></head>
-<body>
-    <h1>Hello World</h1>
-    <p>Today’s Date: <%= new Date() %></p>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:959843bf926030a660d296f54313424ab2a4a4d70ee37392455e294fb3b04ce4
+size 280

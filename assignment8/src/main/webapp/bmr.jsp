@@ -1,14 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<%@ page import="java.util.*" %>
-<html>
-<body>
-<h2>BMR calcolator</h2>
-<p> Age: <%= request.getParameter("age") %></p>
-<p>Gender: <%= request.getParameter("gender") %></p>
-<p>Height (cm): <%= request.getParameter("height") %></p>
-<p>Weight (kg): <%= request.getParameter("weight") %></p>
-
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fff21dc146b9d43939b8db2381263a8e83f5fad26c93edbbd51d7ef189bf549
+size 426

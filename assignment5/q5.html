@@ -1,27 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Second Largest Element</title>
-</head>
-<body bgcolor="black" text="pink">
-<script>
-var arr = [12, 35, 1, 10, 34, 1];   
-
-var largest = -Infinity;
-var second = -Infinity;
-
-for (var i = 0; i < arr.length; i++) {
-  var n = arr[i];
-  if (n > largest) {
-    second = largest;
-    largest = n;
-  } else if (n > second && n < largest) {
-    second = n;
-  }
-}
-document.write("Array: " + arr + "<br>");
-document.write("Largest: " + largest + "<br>");
-document.write("Second Largest: " + second);
-</script>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:1208e04eb7062167fb57a88992333ea0ad6b0e94cfb36c901fb32aa0ca554090
+size 577

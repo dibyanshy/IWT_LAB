@@ -1,16 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-</head>
-<body>
-<%@ include file="header.jsp" %>
-<h2>About Us</h2>
-<p>We are a demo organization.</p>
-<p>Our mission is to teach JSP basics.</p>
-<%@ include file="footer.jsp" %>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b3b64408e2096ec9dd02a97b636d0d705a7cede35ac82f6e4e618fe75af5b2a5
+size 384

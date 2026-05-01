@@ -1,18 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<%@ page import="java.util.*" %>
-<html>
-<body>
-<h2>Employee Details</h2>
-<p>ID: <%= request.getParameter("id") %></p>
-<p>Name: <%= request.getParameter("name") %></p>
-<p>Mobile: <%= request.getParameter("mobile") %></p>
-<p>Email: <%= request.getParameter("email") %></p>
-<p>Gender: <%= request.getParameter("gender") %></p>
-<p>DOB: <%= request.getParameter("dob") %></p>
-<p>Address: <%= request.getParameter("address") %></p>
-<p>Country: <%= request.getParameter("country") %></p>
-<p>Languages: <%= Arrays.toString(request.getParameterValues("lang")) %></p>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:e4598ae0b65188f35babd5e2c13193d12f6c8dd07c6dfb6ccebd737c03b40b73
+size 699

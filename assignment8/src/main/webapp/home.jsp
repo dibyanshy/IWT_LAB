@@ -1,16 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<%@ include file="header.jsp" %>
-<h2>Welcome to Home Page</h2>
-<p>This is a sample homepage.</p>
-<img src="sample.jpg" alt="Sample Image"><br>
-<figcaption>Sample Caption</figcaption>
-<%@ include file="footer.jsp" %>
-about.jsp
-
-jsp
-<%@ include file="header.jsp" %>
-<h2>About Us</h2>
-<p>We are a demo organization.</p>
-<p>Our mission is to teach JSP basics.</p>
-<%@ include file="footer.jsp" %>
+version https://git-lfs.github.com/spec/v1
+oid sha256:23f278013bfeefa96e3d14a15284bb43858037d99dc8ce3eae63e2dedb5ddaca
+size 498

@@ -1,26 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<body>
-<form action="" method="post">
-    Enter a number: <input type="text" name="num">
-    <input type="submit" value="Check">
-</form>
-
-<%
-    String n = request.getParameter("num");
-    if(n != null){
-        int num = Integer.parseInt(n);
-        boolean prime = true;
-        if(num <= 1) prime = false;
-        else {
-            for(int i=2; i<=Math.sqrt(num); i++){
-                if(num % i == 0){ prime = false; break; }
-            }
-        }
-        out.println(num + (prime ? " is Prime" : " is Not Prime"));
-    }
-%>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:28af1ee5d7e63302ffbf6a18aa9c5a57c39f6ee330fd51c3e186f2ee510d276f
+size 687

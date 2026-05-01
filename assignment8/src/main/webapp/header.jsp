@@ -1,12 +1,3 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-<html>
-<body>
-<h1>My Website</h1>
-<a href="home.jsp">Home</a> | 
-<a href="about.jsp">About</a> | 
-<a href="contact.jsp">Contact</a>
-<hr>
-</body>
-</html>
+version https://git-lfs.github.com/spec/v1
+oid sha256:b4c1a846f85c7f3a63807677f7bdf4454d339bff4c4a245a7c16443bf23fb79e
+size 270
